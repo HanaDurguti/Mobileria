@@ -7,13 +7,86 @@
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
-    <header>
-      <h1>Luxury Furniture</h1>
-    </header>
+    <header class="site-header">
+      <a class="logo" href="index.html">LUXURY FURNITURE</a>
 
-    <section class="hero">
-      <h2>Elegance in Every Detail</h2>
-      <p>Discover beautiful furniture for your home</p>
-    </section>
+      <button
+        class="menu-button"
+        type="button"
+        aria-label="Open navigation "
+        aria-expended="false"
+      >
+        ☰
+      </button>
+
+      <nav class="site-nav" aria-label="Main navigation">
+        <a class="current" href="index.html">Home</a>
+        <a href="products.html">Products</a>
+        <a href="collection.html">Collection</a>
+        <a href="contact.html">Contact</a>
+
+        <span class="account-links">
+          <a href="login.html">Login</a>
+          <a class="register-link" href="register.html">Register</a>
+        </span>
+      </nav>
+    </header>
+    <main>
+      <section class="hero">
+        <div class="hero-content">
+          <p class="eyebrow">TIMELESS DESIGN · THOUGHTFUL DETAILS</p>
+          <h1>Elegance in <br /><em>Every Detail</em></h1>
+          <p>
+            Dicover beautiful furniture designed to make your home feelspeacial.
+          </p>
+          <a class="button" href="products.html"
+            >Explore furniture <span>↗</span></a
+          >
+        </div>
+
+        <p class="hero-caption">A considered home starts here</p>
+      </section>
+
+      <section class="welcome content-width">
+        <div>
+          <p class="eyebrow dark">LUXURY FURNITURE</p>
+          <h2>Beautiful rooms.<br /><em> Made for living.</em></h2>
+        </div>
+        <p>
+          Explore carefully selected furniture, warm materials and enduring
+          desings for every room in your home.
+        </p>
+      </section>
+
+      <section
+        class="home-categories content-width"
+        aria-label="Featured furniture categories"
+      >
+        <article class="category-card living-card">
+          <a href="products.html">
+            <img src="images/living-room.jpg" alt="Living Room Furniture" />
+            <span> 01 / LIVING ROOM</span>
+            <strong>Settle in<b>↗</b></strong>
+          </a>
+        </article>
+
+        <article class="category-card dining-card">
+          <a href="collection.html">
+            <img src="images/dining-room.jpg" alt="Dining Room Furniture" />
+            <span>02 / DINING ROOM</span>
+            <strong>Gather around<b>↗</b></strong>
+          </a>
+        </article>
+      </section>
+      <aside class="home-note">
+        <p>"A beautiful home is a felling you create every day."</p>
+      </aside>
+    </main>
+
+    <footer class="site-footer">
+      <a class="logo" href="index.html">LUXURY FURNITURE</a>
+      <p>Furniture for the way you live.</p>
+      <small>© 2026 LUXURY FURNITURE.</small>
+    </footer>
   </body>
 </html>
